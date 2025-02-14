@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'productos_db';
 $username = 'root';
-$password = '';
+$password = 'hola123';  // Cambié la contraseña aquí
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -11,3 +11,4 @@ try {
     echo 'Conexión fallida: ' . $e->getMessage();
 }
 ?>
+
