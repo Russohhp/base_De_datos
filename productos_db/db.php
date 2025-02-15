@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'productos_db';
 $username = 'root';
-$password = 'hola123';  // Cambié la contraseña aquí
+$password = '';  
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
